@@ -5,11 +5,10 @@ const post_category =require('../models/post_category.js');
 
 const typeDefs = gql`
     type Query {
-        posts: [Post]
-        post(id: ID!): Post
-        categories: [Category]
-        singlecategoryposts(id: ID!) : singlecategoryposts
-
+      posts: [Post]
+      post(id: ID!): Post
+      categories: [Category]
+      singlecategoryposts(id: ID!) : singlecategoryposts
     }
     type Post {
       id: ID!
