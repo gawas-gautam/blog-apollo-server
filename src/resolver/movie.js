@@ -22,6 +22,7 @@ type Actor {
 type Post {
   id: ID!
   name: String
+
 }
 
 type Query {
