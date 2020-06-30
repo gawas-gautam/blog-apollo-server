@@ -19,6 +19,10 @@ type Actor {
   movies: [Movie]
 }
 
+type Post {
+  id: ID!
+  name: String
+}
 
 type Query {
   Movie(id: ID, title: String, released: Int, tagline: String, imdbRating: Float, first: Int, offset: Int): [Movie]
